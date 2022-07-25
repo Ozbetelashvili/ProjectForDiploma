@@ -669,3 +669,5 @@ C:\Users\ninoo\OneDrive\Desktop\GitProject\SSU_Diploma\obj\Debug\SSU_Diploma.csp
 C:\Users\ninoo\OneDrive\Desktop\GitProject\SSU_Diploma\obj\Debug\SSU_Diploma.csproj.CopyComplete
 C:\Users\ninoo\OneDrive\Desktop\GitProject\SSU_Diploma\obj\Debug\SSU_Diploma.exe
 C:\Users\ninoo\OneDrive\Desktop\GitProject\SSU_Diploma\obj\Debug\SSU_Diploma.pdb
+C:\Users\ninoo\OneDrive\Desktop\GitProject\SSU_Diploma\obj\Debug\SSU_Diploma.Synchronization.Forms.frmSyncInfo.resources
+C:\Users\ninoo\OneDrive\Desktop\GitProject\SSU_Diploma\obj\Debug\SSU_Diploma.Students.Print.xtraConsultationPrescriptionGEO.resources

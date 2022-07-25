@@ -93,7 +93,9 @@ namespace SSU_Diploma.MainForm
 
         private void tsPrint_Click(object sender, EventArgs e)
         {
-            //dbo.StudentPrint
+            var ID = Int32.Parse(gw.GetFocusedRowCellValue(colID).ToString());
+            var handler = new StudentsHandler();
+            handler.PrintStudentCard(ID);
         }
 
         private async void tsSync_Click(object sender, EventArgs e)
@@ -104,7 +106,9 @@ namespace SSU_Diploma.MainForm
                 var handler = new StudentServiceHandler();
                 var result = await handler.GetStudentInfo(frm.privateNo);
 
-                MessageBox.Show(result.StudentDataReply.FirstName + " " + result.StudentDataReply.LastName);
+                var form = new frmSyncInfo(result);
+                form.Show();
+
             }
         }
     }

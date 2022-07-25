@@ -52,10 +52,10 @@ namespace SSU_Diploma.Students.forms
             this.txtPhoneNo = new System.Windows.Forms.MaskedTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.picPrivateImage2 = new System.Windows.Forms.PictureBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.picPrivateImage1 = new System.Windows.Forms.PictureBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.picPrivateImage2 = new System.Windows.Forms.PictureBox();
             this.btnDetelePrivateImage = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -65,17 +65,17 @@ namespace SSU_Diploma.Students.forms
             this.label18 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.cmbMajorDiretion = new System.Windows.Forms.ComboBox();
-            this.cmbMajorFaculty = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.cmbMajorFaculty = new System.Windows.Forms.ComboBox();
+            this.cmbMajorDiretion = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.ckbAwardedDiploma = new System.Windows.Forms.CheckBox();
             this.cmbEducationLevel = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.cmbMinorDirection = new System.Windows.Forms.ComboBox();
-            this.cmbMinorFaculty = new System.Windows.Forms.ComboBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.cmbMinorFaculty = new System.Windows.Forms.ComboBox();
+            this.cmbMinorDirection = new System.Windows.Forms.ComboBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.cmbLearningLanguage = new System.Windows.Forms.ComboBox();
             this.btnApply = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
@@ -92,10 +92,10 @@ namespace SSU_Diploma.Students.forms
             ((System.ComponentModel.ISupportInitialize)(this.picImage)).BeginInit();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picPrivateImage2)).BeginInit();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPrivateImage1)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picPrivateImage2)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -304,29 +304,6 @@ namespace SSU_Diploma.Students.forms
             this.tabControl1.Size = new System.Drawing.Size(287, 206);
             this.tabControl1.TabIndex = 101;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.picPrivateImage2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 27);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(279, 175);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "უკანა მხარე";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // picPrivateImage2
-            // 
-            this.picPrivateImage2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picPrivateImage2.Location = new System.Drawing.Point(3, 3);
-            this.picPrivateImage2.Name = "picPrivateImage2";
-            this.picPrivateImage2.Size = new System.Drawing.Size(270, 171);
-            this.picPrivateImage2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picPrivateImage2.TabIndex = 6;
-            this.picPrivateImage2.TabStop = false;
-            this.picPrivateImage2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.picPrivateImage2_MouseClick);
-            this.picPrivateImage2.MouseHover += new System.EventHandler(this.picPrivateImage2_MouseHover);
-            // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.picPrivateImage1);
@@ -349,6 +326,29 @@ namespace SSU_Diploma.Students.forms
             this.picPrivateImage1.TabStop = false;
             this.picPrivateImage1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.picPrivateImage1_MouseClick);
             this.picPrivateImage1.MouseHover += new System.EventHandler(this.picPrivateImage1_MouseHover);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.picPrivateImage2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 27);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(279, 175);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "უკანა მხარე";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // picPrivateImage2
+            // 
+            this.picPrivateImage2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picPrivateImage2.Location = new System.Drawing.Point(3, 3);
+            this.picPrivateImage2.Name = "picPrivateImage2";
+            this.picPrivateImage2.Size = new System.Drawing.Size(270, 171);
+            this.picPrivateImage2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picPrivateImage2.TabIndex = 6;
+            this.picPrivateImage2.TabStop = false;
+            this.picPrivateImage2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.picPrivateImage2_MouseClick);
+            this.picPrivateImage2.MouseHover += new System.EventHandler(this.picPrivateImage2_MouseHover);
             // 
             // btnDetelePrivateImage
             // 
@@ -438,24 +438,14 @@ namespace SSU_Diploma.Students.forms
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "ძირითადი სპეციალობა";
             // 
-            // label13
+            // label11
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(6, 71);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(100, 18);
-            this.label13.TabIndex = 5;
-            this.label13.Text = "მიმართულება:";
-            // 
-            // cmbMajorDiretion
-            // 
-            this.cmbMajorDiretion.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cmbMajorDiretion.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbMajorDiretion.FormattingEnabled = true;
-            this.cmbMajorDiretion.Location = new System.Drawing.Point(9, 92);
-            this.cmbMajorDiretion.Name = "cmbMajorDiretion";
-            this.cmbMajorDiretion.Size = new System.Drawing.Size(625, 26);
-            this.cmbMajorDiretion.TabIndex = 14;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 21);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(87, 18);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "ფაკულტეტი:";
             // 
             // cmbMajorFaculty
             // 
@@ -468,14 +458,24 @@ namespace SSU_Diploma.Students.forms
             this.cmbMajorFaculty.TabIndex = 13;
             this.cmbMajorFaculty.SelectedIndexChanged += new System.EventHandler(this.cmbMajorFaculty_SelectedIndexChanged);
             // 
-            // label11
+            // cmbMajorDiretion
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(6, 21);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(87, 18);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "ფაკულტეტი:";
+            this.cmbMajorDiretion.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbMajorDiretion.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbMajorDiretion.FormattingEnabled = true;
+            this.cmbMajorDiretion.Location = new System.Drawing.Point(9, 92);
+            this.cmbMajorDiretion.Name = "cmbMajorDiretion";
+            this.cmbMajorDiretion.Size = new System.Drawing.Size(625, 26);
+            this.cmbMajorDiretion.TabIndex = 14;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(6, 71);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(100, 18);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "მიმართულება:";
             // 
             // ckbAwardedDiploma
             // 
@@ -511,24 +511,14 @@ namespace SSU_Diploma.Students.forms
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "დამატებითი სპეციალობა";
             // 
-            // label17
+            // label16
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(6, 71);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(100, 18);
-            this.label17.TabIndex = 5;
-            this.label17.Text = "მიმართულება:";
-            // 
-            // cmbMinorDirection
-            // 
-            this.cmbMinorDirection.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cmbMinorDirection.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbMinorDirection.FormattingEnabled = true;
-            this.cmbMinorDirection.Location = new System.Drawing.Point(9, 92);
-            this.cmbMinorDirection.Name = "cmbMinorDirection";
-            this.cmbMinorDirection.Size = new System.Drawing.Size(625, 26);
-            this.cmbMinorDirection.TabIndex = 16;
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(6, 21);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(87, 18);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "ფაკულტეტი:";
             // 
             // cmbMinorFaculty
             // 
@@ -541,14 +531,24 @@ namespace SSU_Diploma.Students.forms
             this.cmbMinorFaculty.TabIndex = 15;
             this.cmbMinorFaculty.SelectedIndexChanged += new System.EventHandler(this.cmbMinorFaculty_SelectedIndexChanged);
             // 
-            // label16
+            // cmbMinorDirection
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(6, 21);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(87, 18);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "ფაკულტეტი:";
+            this.cmbMinorDirection.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbMinorDirection.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbMinorDirection.FormattingEnabled = true;
+            this.cmbMinorDirection.Location = new System.Drawing.Point(9, 92);
+            this.cmbMinorDirection.Name = "cmbMinorDirection";
+            this.cmbMinorDirection.Size = new System.Drawing.Size(625, 26);
+            this.cmbMinorDirection.TabIndex = 16;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(6, 71);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(100, 18);
+            this.label17.TabIndex = 5;
+            this.label17.Text = "მიმართულება:";
             // 
             // cmbLearningLanguage
             // 
@@ -721,10 +721,10 @@ namespace SSU_Diploma.Students.forms
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picPrivateImage2)).EndInit();
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picPrivateImage1)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picPrivateImage2)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

@@ -128,7 +128,14 @@
     <Compile Include="Synchronization\Forms\frmGetPrivateNo.Designer.cs">
       <DependentUpon>frmGetPrivateNo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Synchronization\Forms\frmSyncInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Synchronization\Forms\frmSyncInfo.Designer.cs">
+      <DependentUpon>frmSyncInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Synchronization\Handler\StudentServiceHandler.cs" />
+    <Compile Include="Synchronization\Model\SaveSyncData.cs" />
     <Compile Include="Synchronization\Model\StudentData.cs" />
     <Compile Include="Synchronization\Model\StudentModel.cs" />
     <Compile Include="Users\Forms\frmUserAddEdit.cs">
@@ -174,8 +181,12 @@
     <EmbeddedResource Include="Students\forms\frmStudentInfo.resx">
       <DependentUpon>frmStudentInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Students\Print\xtraConsultationPrescriptionGEO.resx" />
     <EmbeddedResource Include="Synchronization\Forms\frmGetPrivateNo.resx">
       <DependentUpon>frmGetPrivateNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Synchronization\Forms\frmSyncInfo.resx">
+      <DependentUpon>frmSyncInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Users\Forms\frmUserAddEdit.resx">
       <DependentUpon>frmUserAddEdit.cs</DependentUpon>
@@ -199,6 +210,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <Content Include="Students\Print\xtraConsultationPrescriptionGEO.Designer.vb" />
+    <Content Include="Students\Print\xtraConsultationPrescriptionGEO.vb" />
     <None Include="Resources\v4Flow.png" />
     <None Include="Resources\v4Apply.png" />
     <None Include="Resources\v4Delete.png" />
@@ -213,8 +226,6 @@
     <None Include="Resources\aArrowDownGreen32x32.png" />
     <Content Include="Resources\favicon.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Students\Print\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -180,6 +180,28 @@ namespace SSU_Diploma.Students.Handler
             return dm;
         }
 
+        public void PrintStudentCard(int ID) {
+
+            var dt = new DataTable();
+            try
+            {
+                using (SqlDataAdapter da = new SqlDataAdapter("dbo.PrintStudentCard", Database.Database.GetConnection()))
+                {
+                    da.SelectCommand.CommandType = CommandType.StoredProcedure;
+                    da.SelectCommand.Parameters.AddWithValue("@ID", ID);
+                    da.Fill(dt);
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+
+        }
 
     }
 }
