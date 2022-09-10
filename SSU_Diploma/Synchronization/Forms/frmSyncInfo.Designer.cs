@@ -397,6 +397,7 @@ namespace SSU_Diploma.Synchronization.Forms
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "სინქრონიზაცია";
+            this.Load += new System.EventHandler(this.frmSyncInfo_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

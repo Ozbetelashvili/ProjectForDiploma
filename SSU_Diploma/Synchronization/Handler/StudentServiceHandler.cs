@@ -21,7 +21,7 @@ namespace SSU_Diploma.Synchronization.Handler
 
         public StudentServiceHandler()
         {
-            _api = "http://217.147.236.36:8001/getstudentdatanoimage?pmPersonalNumber=";
+            _api = "API ADDRESS";
         }
 
         public StudentServiceHandler(SaveSyncData model)

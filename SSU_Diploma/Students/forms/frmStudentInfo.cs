@@ -261,7 +261,7 @@ namespace SSU_Diploma.Students.forms
             try
             {
                 var handel = new StudentsHandler(sm);
-                StudentID = handel.UsersSet();
+                StudentID = handel.StudentsSet();
                 if (Modal) { DialogResult = DialogResult.OK; } else { this.Close(); }
             }
             catch (Exception ex)

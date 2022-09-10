@@ -356,5 +356,10 @@ namespace SSU_Diploma.Synchronization.Forms
             else txtStatus.Enabled = false;
         }
         #endregion
+
+        private void frmSyncInfo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

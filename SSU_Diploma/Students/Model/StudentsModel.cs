@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SSU_Diploma.Students.Model
 {
-    class StudentsModel
+    public class StudentsModel
     {
         public int ID { get; set; }
         public byte[] StudentsImage { get; set; }

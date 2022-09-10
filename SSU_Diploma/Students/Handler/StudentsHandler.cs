@@ -35,7 +35,7 @@ namespace SSU_Diploma.Students.Handler
 
 
 
-        public int UsersSet()
+        public int StudentsSet()
         {
             int recordID = 0;
             try
